@@ -4,7 +4,7 @@ import { GamesInfo } from "../../utils/Games"
 
 const Games = () => {
     return (
-        <div className='w-2/4 m-auto flex flex-wrap gap-5 justify-center'>
+        <div className='w-4/5 m-auto flex flex-wrap gap-5 justify-center'>
             {GamesInfo.map((game, index) => {
                 return (
                     <GamesIcons name={game.name} key={index} link={game.link} isDone={game.isDone} />
